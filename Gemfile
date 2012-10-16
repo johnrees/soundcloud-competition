@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', :git => "git://github.com/rails/rails.git", :branch => '3-1-stable'
+gem 'rails', :github => "rails/rails", :branch => '3-1-stable'
 
 group :assets do
   gem 'coffee-rails', "~> 3.1.0"
@@ -11,8 +11,8 @@ end
 gem 'sass-rails', " ~> 3.1.0"
 gem 'jquery-rails'
 gem 'haml'
-gem 'omniauth', :git => "git://github.com/intridea/omniauth.git", :branch => '0-3-stable'
-gem 'thumbs_up', :git => "git://github.com/leemartin/thumbs_up.git"
+gem 'omniauth', :github => "intridea/omniauth", :branch => '0-3-stable'
+gem 'thumbs_up', :github => "leemartin/thumbs_up"
 gem 'redcarpet'
 gem 'rails_config'
 gem 'kaminari'
